@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MultiLanguageApplication.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,23 +9,22 @@ namespace MultiLanguageApplication.Controllers
 {
     public class HomeController : Controller
     {
+
+        // GET: Home    
         public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult About()
+        [HttpPost]
+        public ActionResult Index(Registration r)
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            return View(r);
+        }
+        public ActionResult ChangeLanguage(string lang)
+        {
+            new LanguageMang().SetLanguage(lang);
+            return RedirectToAction("Index", "Home");
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }

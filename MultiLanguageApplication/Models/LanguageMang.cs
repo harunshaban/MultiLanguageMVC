@@ -14,13 +14,7 @@ namespace MultiLanguageApplication.Models
                 LanguageFullName = "English", LanguageCultureName = "en"
             },
             new Languages {
-                LanguageFullName = "Hindi", LanguageCultureName = "Hi"
-            },
-            new Languages {
-                LanguageFullName = "japanese", LanguageCultureName = "Ja"
-            },
-            new Languages {
-                LanguageFullName = "arabic", LanguageCultureName = "Ar"
+                LanguageFullName = "Македонски", LanguageCultureName = "МК"
             },
         };
 
