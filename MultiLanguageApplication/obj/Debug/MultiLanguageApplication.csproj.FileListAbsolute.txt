@@ -76,3 +76,8 @@ C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\ob
 C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.csproj.CopyComplete
 C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.dll
 C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.pdb
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\bin\Mk\MultiLanguageApplication.resources.dll
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.Resource.resources
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.Resource.Mk.resources
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.csproj.GenerateResource.cache
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\Mk\MultiLanguageApplication.resources.dll

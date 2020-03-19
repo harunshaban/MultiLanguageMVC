@@ -118,36 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Age" xml:space="preserve">
-    <value>Age</value>
+    <value>Moshë</value>
   </data>
   <data name="AgeRange" xml:space="preserve">
-    <value>Must be between 10 and 120</value>
+    <value>Duhet të jetë midis 10 dhe 120</value>
   </data>
   <data name="AgeRequired" xml:space="preserve">
-    <value>Age is requred</value>
+    <value>Mosha është riparuar</value>
   </data>
   <data name="Email" xml:space="preserve">
     <value>Email</value>
   </data>
   <data name="EmailInvalid" xml:space="preserve">
-    <value>Email is not valid</value>
+    <value>Emaili nuk është i vlefshëm</value>
   </data>
   <data name="EmailRequired" xml:space="preserve">
-    <value>Email is required</value>
+    <value>Kërkohet email</value>
   </data>
   <data name="FirstName" xml:space="preserve">
-    <value>First name</value>
+    <value>Emri</value>
   </data>
   <data name="FirstNameRequired" xml:space="preserve">
-    <value>First name is required</value>
+    <value>Kërkohet emri</value>
   </data>
   <data name="LastName" xml:space="preserve">
-    <value>Last name</value>
+    <value>Mbiemri</value>
   </data>
   <data name="LastNameRequired" xml:space="preserve">
-    <value>Last name is required</value>
+    <value>Kërkohet mbiemri</value>
   </data>
   <data name="Register" xml:space="preserve">
-    <value>Register</value>
+    <value>Regjistrohu</value>
   </data>
 </root>

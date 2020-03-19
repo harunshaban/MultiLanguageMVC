@@ -117,34 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Country" xml:space="preserve">
-    <value>име на земја</value>
+  <data name="Age" xml:space="preserve">
+    <value>Возраст</value>
   </data>
-  <data name="CountryNameRequired1" xml:space="preserve">
-    <value>пребарува име на земја</value>
+  <data name="AgeRange" xml:space="preserve">
+    <value>Мора да биде помеѓу 10 и 120</value>
+  </data>
+  <data name="AgeRequired" xml:space="preserve">
+    <value>Возраста е повторно реализирана</value>
   </data>
   <data name="Email" xml:space="preserve">
-    <value>емаил</value>
+    <value>Е-пошта</value>
   </data>
   <data name="EmailInvalid" xml:space="preserve">
-    <value>емаил не валиден</value>
+    <value>Е-поштата не е валидна</value>
   </data>
   <data name="EmailRequired" xml:space="preserve">
-    <value>пребарува емаил</value>
+    <value>Потребна е е-пошта</value>
   </data>
   <data name="FirstName" xml:space="preserve">
-    <value>име</value>
+    <value>Име</value>
   </data>
   <data name="FirstNameRequired" xml:space="preserve">
-    <value>пребарува име</value>
+    <value>Задолжително е името</value>
   </data>
   <data name="LastName" xml:space="preserve">
-    <value>презиме</value>
+    <value>Презиме</value>
   </data>
   <data name="LastNameRequired" xml:space="preserve">
-    <value>пребарува презиме</value>
+    <value>Презиме е задолжително</value>
   </data>
   <data name="Register" xml:space="preserve">
-    <value>регистрирај</value>
+    <value>Регистрирај се</value>
   </data>
 </root>

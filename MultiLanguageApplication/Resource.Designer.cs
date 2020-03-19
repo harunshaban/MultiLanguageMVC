@@ -61,20 +61,29 @@ namespace MultiLanguageApplication {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Country name.
+        ///   Looks up a localized string similar to Age.
         /// </summary>
-        internal static string Country {
+        internal static string Age {
             get {
-                return ResourceManager.GetString("Country", resourceCulture);
+                return ResourceManager.GetString("Age", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Country name required.
+        ///   Looks up a localized string similar to Must be between 10 and 120.
         /// </summary>
-        internal static string CountryNameRequired {
+        internal static string AgeRange {
             get {
-                return ResourceManager.GetString("CountryNameRequired", resourceCulture);
+                return ResourceManager.GetString("AgeRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Age is requred.
+        /// </summary>
+        internal static string AgeRequired {
+            get {
+                return ResourceManager.GetString("AgeRequired", resourceCulture);
             }
         }
         
