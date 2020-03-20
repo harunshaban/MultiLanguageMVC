@@ -22,7 +22,7 @@ namespace MultiLanguageApplication {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resource {
+    public class Resource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace MultiLanguageApplication {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MultiLanguageApplication.Resource", typeof(Resource).Assembly);
@@ -51,7 +51,7 @@ namespace MultiLanguageApplication {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Age.
         /// </summary>
-        internal static string Age {
+        public static string Age {
             get {
                 return ResourceManager.GetString("Age", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Must be between 10 and 120.
         /// </summary>
-        internal static string AgeRange {
+        public static string AgeRange {
             get {
                 return ResourceManager.GetString("AgeRange", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Age is requred.
         /// </summary>
-        internal static string AgeRequired {
+        public static string AgeRequired {
             get {
                 return ResourceManager.GetString("AgeRequired", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Email.
         /// </summary>
-        internal static string Email {
+        public static string Email {
             get {
                 return ResourceManager.GetString("Email", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Email is not valid.
         /// </summary>
-        internal static string EmailInvalid {
+        public static string EmailInvalid {
             get {
                 return ResourceManager.GetString("EmailInvalid", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Email is required.
         /// </summary>
-        internal static string EmailRequired {
+        public static string EmailRequired {
             get {
                 return ResourceManager.GetString("EmailRequired", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to First name.
         /// </summary>
-        internal static string FirstName {
+        public static string FirstName {
             get {
                 return ResourceManager.GetString("FirstName", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to First name is required.
         /// </summary>
-        internal static string FirstNameRequired {
+        public static string FirstNameRequired {
             get {
                 return ResourceManager.GetString("FirstNameRequired", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Last name.
         /// </summary>
-        internal static string LastName {
+        public static string LastName {
             get {
                 return ResourceManager.GetString("LastName", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Last name is required.
         /// </summary>
-        internal static string LastNameRequired {
+        public static string LastNameRequired {
             get {
                 return ResourceManager.GetString("LastNameRequired", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace MultiLanguageApplication {
         /// <summary>
         ///   Looks up a localized string similar to Register.
         /// </summary>
-        internal static string Register {
+        public static string Register {
             get {
                 return ResourceManager.GetString("Register", resourceCulture);
             }

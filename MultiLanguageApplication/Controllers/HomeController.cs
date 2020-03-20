@@ -7,24 +7,24 @@ using System.Web.Mvc;
 
 namespace MultiLanguageApplication.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : MyBaseController
     {
-
-        // GET: Home    
+        // GET: Home
         public ActionResult Index()
         {
             return View();
         }
+
         [HttpPost]
-        public ActionResult Index(Registration r)
+        public ActionResult Index(RegistrationModel r)
         {
             return View(r);
         }
+
         public ActionResult ChangeLanguage(string lang)
         {
-            new LanguageMang().SetLanguage(lang);
+            new SiteLanguage().setLanguage(lang);
             return RedirectToAction("Index", "Home");
         }
-
     }
 }

@@ -28,6 +28,17 @@
         </div>
     </div>
     <div class="container body-content">
+        <br /><br />
+        <div style="padding:5px">
+            @* Language Switcher *@
+            @{ 
+                foreach(var i in MultiLanguageApplication.Models.SiteLanguage.AvailableLanguages)
+                {
+                    @Html.ActionLink(i.LangFullName, "ChangeLanguage", "Home", new {lang = i.LangCultureName }, null) <text>&nbsp;</text>
+                }
+            }
+        </div>
+
         @RenderBody()
         <hr />
         <footer>

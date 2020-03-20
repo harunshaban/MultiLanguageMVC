@@ -12,8 +12,7 @@ namespace MultiLanguageApplication.Models
         public static List<Languages> AvailableLanguages = new List<Languages>
         {
             new Languages{LangFullName = "English", LangCultureName = "en"},
-            new Languages{LangFullName = "Македонски", LangCultureName = "mk"},
-            new Languages{LangFullName = "Shqip", LangCultureName = "shq"}
+            new Languages{LangFullName = "Македонски", LangCultureName = "mk"}
         };
 
         public static bool IsLanguageAvailable(string lang)
