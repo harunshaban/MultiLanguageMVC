@@ -80,3 +80,7 @@ C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\ob
 C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.csproj.CopyComplete
 C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.dll
 C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.pdb
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.csprojAssemblyReference.cache
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\bin\it\MultiLanguageApplication.resources.dll
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\MultiLanguageApplication.Resource.it.resources
+C:\Users\ramad\source\repos\MultiLanguageApplication\MultiLanguageApplication\obj\Debug\it\MultiLanguageApplication.resources.dll

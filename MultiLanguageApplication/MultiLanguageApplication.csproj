@@ -186,6 +186,7 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resource.it.resx" />
     <EmbeddedResource Include="Resource.mk.resx" />
     <EmbeddedResource Include="Resource.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
